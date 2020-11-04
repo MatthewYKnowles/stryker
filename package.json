@@ -15,7 +15,7 @@
     "angular": "^1.7.9",
     "angular-route": "^1.7.9",
     "hoek": "^6.1.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   },
   "devDependencies": {
