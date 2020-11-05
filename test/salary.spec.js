@@ -5,5 +5,6 @@ describe("Salary Tests", () => {
         employee.giveRaise(2000);
 
         expect(employee.salary).toEqual(52000);
+        expect(employee.taxWithheld).toEqual(10400);
     })
 })

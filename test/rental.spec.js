@@ -1,12 +1,9 @@
-
-
 describe('Rental', function () {
     let stuff;
 
     beforeEach(function () {
         stuff = new Rental();
     });
-
 
     it('should return the proper result', function () {
         let properResult =
@@ -22,6 +19,7 @@ describe('Rental', function () {
         };
 
         let actualResult = stuff.statement(customer);
+        expect(actualResult).toEqual(properResult);
     });
 
     it('should return the proper result', function () {
@@ -38,6 +36,7 @@ describe('Rental', function () {
         };
 
         var actualResult = stuff.statement(customer)
+        expect(actualResult).toEqual(properResult);
     });
 
     it('should return the proper result', function () {
